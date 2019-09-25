@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>410</width>
+    <height>159</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>汉唐时代教育</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;思维导图伴你学系列&lt;span style=&quot; font-size:10pt;&quot;&gt;（&lt;/span&gt;&lt;span style=&quot; font-size:10pt; color:#ff0000;&quot;&gt;注册码生成器 &lt;/span&gt;&lt;span style=&quot; font-weight:600; color:#5500ff;&quot;&gt;By Jacky&lt;/span&gt;&lt;span style=&quot; font-size:10pt; color:#ff0000;&quot;&gt;）&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::HLine</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,1">
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>选择课程：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QComboBox" name="comboBox">
+       <item>
+        <property name="text">
+         <string>高中语文</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>高中数学</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>高中英语</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>高中物理</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>高中化学</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>高中生物</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>高中政治</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>高中历史</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>高中地理</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>注册码：</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="edSN1"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edSN2"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edSN3"/>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="edSN4"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout_3">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnGenerate">
+       <property name="text">
+        <string>生成注册码</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
